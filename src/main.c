@@ -1,13 +1,19 @@
 #include <stdio.h>
+#include "../include/lista.h"
 
-int menu();
+static void exibir_menu();
 
 int main(void)
 {
-    menu();
+    exibir_menu();
+    Livro livro1 = {1, "Mistborn", "Brendon Sanderson", 2025};
+
+    Lista *livros = cria_lista();
+    insere_lista(livros, livro1);
+
 }
 
-int menu() {
+static void exibir_menu() {
     printf("================================\n"
            "MENU DA BIBLIOTECA\n"
            "================================\n"
