@@ -8,5 +8,4 @@ add_executable(Biblioteca_EstDados src/main.c
         include/bst.h
         src/fila.c
         include/fila.h
-        src/Livro.c
-        include/Livro.h)
+)
