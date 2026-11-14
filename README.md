@@ -30,7 +30,7 @@ O projeto foi organizado em diretórios para separar as declarações das estrut
 ```text
 Biblioteca_EstDados/
 │
-│├── docs/
+├── docs/
 │   ├── Documentação Técnica.pdf       # Documento técnico do projeto
 │
 ├── include/
